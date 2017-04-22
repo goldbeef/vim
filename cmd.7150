@@ -1,0 +1,40 @@
+h,j,k,l
+    direction
+2w
+2e
+-----------------
+x
+    del char 
+d motion
+    dw
+        del word
+    d$
+        del cursor to line-end
+    de
+        del inner-word
+d num motion
+    d2w
+    d2e
+dd
+    whle line-opt 
+num dd 
+    2dd
+-----------------
+u
+    undo last command
+U
+    undo last line-opt
+crl+R
+    undo undo
+-----------------
+i
+    insert
+A
+    append detail
+
+:q!
+    quit
+:wq
+    save and quit 
+
+
