@@ -27,6 +27,25 @@ U
 crl+R
     undo undo
 -----------------
+p
+    copy
+----------------- 
+r
+    replace char
+-----------------
+c [num] motion
+    cw
+        change until to end-of-word
+    c2w
+    c$
+-----------------
+ctrl + G
+    check file status
+G
+    end-of-file
+gg 
+    begin-of-file
+-----------------
 i
     insert
 A
