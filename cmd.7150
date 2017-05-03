@@ -83,7 +83,27 @@ substitution
 	:%s/old/new/gc
 		text mode
 -----------------
-
+:!extern-cmd
+    execute extern-cmd
+    -----------------
+    :!ls
+-----------------
+:w filename
+    write file 
+-----------------
+v motion :w filename 
+    :!ls -lrt
+-----------------
+:r filename
+    read and insert 
+:r !extern-cmd
+    
+-----------------
+o
+    open after line 
+O
+    open before line 
+-----------------
 
 i
     insert
