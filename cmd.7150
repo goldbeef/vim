@@ -37,6 +37,8 @@ p
 ----------------- 
 r
     replace char
+R
+    continue replace
 -----------------
 c [num] motion
     cw
@@ -59,7 +61,8 @@ gg
         NEXT (to head)
 ?string 
     reverse searching str (backward)
-
+/string\c
+    ignore case
 -----------------
 ctrl + O
     old pos
@@ -104,11 +107,27 @@ o
 O
     open before line 
 -----------------
-
 i
-    insert
+    insert before cursor
+a
+    insert after cursor
 A
-    append detail
+    append at end-of-line
+e 
+    end-of-word
+-----------------
+y
+yy
+    copy line 
+yw
+    copy word
+-----------------
+:set ic
+:Set noic
+-----------------
+:set hls is
+:set nohlsearch 
+-----------------
 
 :q!
     quit
