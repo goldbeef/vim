@@ -124,9 +124,12 @@ yw
 -----------------
 :set ic
 :Set noic
+    ignore case 
 -----------------
 :set hls is
+    with highlight
 :set nohlsearch 
+    no highlight
 -----------------
 
 :q!
@@ -134,4 +137,18 @@ yw
 :wq
     save and quit 
 
+-----------------
+:help [command]
 
+-----------------
+vim ~/.vimrc
+-----------------
+command complete
+    :e <ctrl-d>
+        list 
+    :e <tab>
+        select one
+-----------------
+window switch
+    ctrl-w direction
+    
