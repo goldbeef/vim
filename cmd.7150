@@ -3,6 +3,11 @@ h,j,k,l
 2w
 2e
 -----------------
+0
+    head of line 
+$
+    end of line
+-----------------
 x
     del char 
 d motion
@@ -46,6 +51,17 @@ G
 gg 
     begin-of-file
 -----------------
+/string 
+    searching str (forward)
+    n
+        next (to end)
+    N
+        NEXT (to head)
+?string 
+    reverse searching str (backward)
+
+-----------------
+
 i
     insert
 A
