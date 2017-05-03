@@ -61,6 +61,29 @@ gg
     reverse searching str (backward)
 
 -----------------
+ctrl + O
+    old pos
+ctrl + I
+    new pos 
+-----------------
+
+-----------------
+%
+ 	输入 % 可以查找配对的括号 )、]、}
+-----------------
+substitution	
+	:s/old/new
+	:s/old/new/g
+		line mode
+
+	:#,#s/old/new/g
+		multi-line mode
+	
+	:%s/old/new/g
+	:%s/old/new/gc
+		text mode
+-----------------
+
 
 i
     insert
