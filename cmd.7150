@@ -96,7 +96,7 @@ substitution
 -----------------
 v motion :w filename 
     :!ls -lrt
------------------
+-------------d---
 :r filename
     read and insert 
 :r !extern-cmd
